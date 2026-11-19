@@ -14,9 +14,9 @@
 
   <!-- KPI 2x2 -->
   <rect x="24" y="48" width="188" height="68" rx="10" fill="#161b22" stroke="#26303d" stroke-width="1"/>
-  <text x="38" y="75" class="sans" font-size="23" font-weight="800" fill="#58a6ff">3</text>
+  <text x="38" y="75" class="sans" font-size="23" font-weight="800" fill="#58a6ff">23</text>
   <text x="38" y="93" class="mono" font-size="10" font-weight="700" fill="#e6edf3">REPOSITORIOS</text>
-  <text x="38" y="107" class="mono" font-size="9.5" fill="#8b949e">0 privados · 3 públicos</text>
+  <text x="38" y="107" class="mono" font-size="9.5" fill="#8b949e">20 privados · 3 públicos</text>
 
   <rect x="226" y="48" width="188" height="68" rx="10" fill="#161b22" stroke="#26303d" stroke-width="1"/>
   <text x="240" y="75" class="sans" font-size="23" font-weight="800" fill="#3fb950">341+</text>
@@ -24,7 +24,7 @@
   <text x="240" y="107" class="mono" font-size="9.5" fill="#8b949e">64 días activos · máx 21/día</text>
 
   <rect x="24" y="126" width="188" height="68" rx="10" fill="#161b22" stroke="#26303d" stroke-width="1"/>
-  <text x="38" y="153" class="sans" font-size="23" font-weight="800" fill="#d2a8ff">5+</text>
+  <text x="38" y="153" class="sans" font-size="23" font-weight="800" fill="#d2a8ff">446+</text>
   <text x="38" y="171" class="mono" font-size="10" font-weight="700" fill="#e6edf3">COMMITS PROPIOS</text>
   <text x="38" y="185" class="mono" font-size="9.5" fill="#8b949e">RPA, Cloud, Desktop &amp; AI</text>
 
@@ -76,62 +76,62 @@
   <!-- RIGHT PANEL: DISTRIBUCIÓN REAL DE LENGUAJES -->
   <rect x="456.5" y="0.5" width="443" height="321" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
   <text x="478" y="30" class="sans" font-size="12.5" font-weight="700" fill="#f0f6fc" letter-spacing="0.6">DISTRIBUCIÓN REAL DE CÓDIGO</text>
-  <text x="478" y="47" class="mono" font-size="10" fill="#8b949e">Código propio multi-repo (0.1 MB · sin plantillas upstream)</text>
+  <text x="478" y="47" class="mono" font-size="10" fill="#8b949e">Código propio multi-repo (15.8 MB · sin plantillas upstream)</text>
   
       <g transform="translate(478, 68)">
-        <circle cx="5" cy="-4" r="4" fill="#3572A5"/>
-        <text x="16" y="0" class="sans" font-size="11.5" font-weight="600" fill="#e6edf3">Python</text>
-        <text x="398" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#8b949e">95.4% · 92 KB</text>
+        <circle cx="5" cy="-4" r="4" fill="#3178c6"/>
+        <text x="16" y="0" class="sans" font-size="11.5" font-weight="600" fill="#e6edf3">TypeScript</text>
+        <text x="398" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#8b949e">57.0% · 9.0 MB</text>
         <rect x="0" y="7" width="398" height="7" rx="3.5" fill="#161b22"/>
-        <rect x="0" y="7" width="380" height="7" rx="3.5" fill="#3572A5"/>
+        <rect x="0" y="7" width="227" height="7" rx="3.5" fill="#3178c6"/>
       </g>
 
       <g transform="translate(478, 100)">
-        <circle cx="5" cy="-4" r="4" fill="#3fb950"/>
-        <text x="16" y="0" class="sans" font-size="11.5" font-weight="600" fill="#e6edf3">Shell / PowerShell / Infra</text>
-        <text x="398" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#8b949e">4.6% · 4 KB</text>
+        <circle cx="5" cy="-4" r="4" fill="#f1e05a"/>
+        <text x="16" y="0" class="sans" font-size="11.5" font-weight="600" fill="#e6edf3">JavaScript</text>
+        <text x="398" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#8b949e">19.6% · 3.1 MB</text>
         <rect x="0" y="7" width="398" height="7" rx="3.5" fill="#161b22"/>
-        <rect x="0" y="7" width="18" height="7" rx="3.5" fill="#3fb950"/>
+        <rect x="0" y="7" width="78" height="7" rx="3.5" fill="#f1e05a"/>
       </g>
 
       <g transform="translate(478, 132)">
-        <circle cx="5" cy="-4" r="4" fill="#3178c6"/>
-        <text x="16" y="0" class="sans" font-size="11.5" font-weight="600" fill="#e6edf3">TypeScript</text>
-        <text x="398" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#8b949e">0.0% · 0 B</text>
+        <circle cx="5" cy="-4" r="4" fill="#777bb4"/>
+        <text x="16" y="0" class="sans" font-size="11.5" font-weight="600" fill="#e6edf3">PHP</text>
+        <text x="398" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#8b949e">9.2% · 1.5 MB</text>
         <rect x="0" y="7" width="398" height="7" rx="3.5" fill="#161b22"/>
-        <rect x="0" y="7" width="12" height="7" rx="3.5" fill="#3178c6"/>
+        <rect x="0" y="7" width="37" height="7" rx="3.5" fill="#777bb4"/>
       </g>
 
       <g transform="translate(478, 164)">
-        <circle cx="5" cy="-4" r="4" fill="#f1e05a"/>
-        <text x="16" y="0" class="sans" font-size="11.5" font-weight="600" fill="#e6edf3">JavaScript</text>
-        <text x="398" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#8b949e">0.0% · 0 B</text>
+        <circle cx="5" cy="-4" r="4" fill="#3572A5"/>
+        <text x="16" y="0" class="sans" font-size="11.5" font-weight="600" fill="#e6edf3">Python</text>
+        <text x="398" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#8b949e">5.7% · 922 KB</text>
         <rect x="0" y="7" width="398" height="7" rx="3.5" fill="#161b22"/>
-        <rect x="0" y="7" width="12" height="7" rx="3.5" fill="#f1e05a"/>
+        <rect x="0" y="7" width="23" height="7" rx="3.5" fill="#3572A5"/>
       </g>
 
       <g transform="translate(478, 196)">
-        <circle cx="5" cy="-4" r="4" fill="#777bb4"/>
-        <text x="16" y="0" class="sans" font-size="11.5" font-weight="600" fill="#e6edf3">PHP</text>
-        <text x="398" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#8b949e">0.0% · 0 B</text>
+        <circle cx="5" cy="-4" r="4" fill="#e34c26"/>
+        <text x="16" y="0" class="sans" font-size="11.5" font-weight="600" fill="#e6edf3">UI (CSS / SCSS / HTML / Vue)</text>
+        <text x="398" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#8b949e">5.1% · 821 KB</text>
         <rect x="0" y="7" width="398" height="7" rx="3.5" fill="#161b22"/>
-        <rect x="0" y="7" width="12" height="7" rx="3.5" fill="#777bb4"/>
+        <rect x="0" y="7" width="20" height="7" rx="3.5" fill="#e34c26"/>
       </g>
 
       <g transform="translate(478, 228)">
-        <circle cx="5" cy="-4" r="4" fill="#e34c26"/>
-        <text x="16" y="0" class="sans" font-size="11.5" font-weight="600" fill="#e6edf3">UI (CSS / SCSS / HTML / Vue)</text>
-        <text x="398" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#8b949e">0.0% · 0 B</text>
+        <circle cx="5" cy="-4" r="4" fill="#38bdf8"/>
+        <text x="16" y="0" class="sans" font-size="11.5" font-weight="600" fill="#e6edf3">PLpgSQL / SQL</text>
+        <text x="398" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#8b949e">2.1% · 335 KB</text>
         <rect x="0" y="7" width="398" height="7" rx="3.5" fill="#161b22"/>
-        <rect x="0" y="7" width="12" height="7" rx="3.5" fill="#e34c26"/>
+        <rect x="0" y="7" width="12" height="7" rx="3.5" fill="#38bdf8"/>
       </g>
 
       <g transform="translate(478, 260)">
-        <circle cx="5" cy="-4" r="4" fill="#38bdf8"/>
-        <text x="16" y="0" class="sans" font-size="11.5" font-weight="600" fill="#e6edf3">PLpgSQL / SQL</text>
-        <text x="398" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#8b949e">0.0% · 0 B</text>
+        <circle cx="5" cy="-4" r="4" fill="#3fb950"/>
+        <text x="16" y="0" class="sans" font-size="11.5" font-weight="600" fill="#e6edf3">Shell / PowerShell / Infra</text>
+        <text x="398" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#8b949e">1.3% · 203 KB</text>
         <rect x="0" y="7" width="398" height="7" rx="3.5" fill="#161b22"/>
-        <rect x="0" y="7" width="12" height="7" rx="3.5" fill="#38bdf8"/>
+        <rect x="0" y="7" width="12" height="7" rx="3.5" fill="#3fb950"/>
       </g>
   <text x="478" y="302" class="mono" font-size="9.5" fill="#6e7681">Actualizado: 2026-11-19 · Auto-sync con GitHub Actions</text>
 </svg>

@@ -165,18 +165,28 @@ function mergeMetrics(baseline, user) {
   if (!user) return { ...baseline, updatedAt: today };
 
   const nodes = user.repositories?.nodes || [];
-  const hasPrivateVisibility =
-    nodes.some((r) => r.isPrivate) ||
-    (user.contributionsCollection?.restrictedContributionsCount || 0) > 0;
+  const hasPrivateRepoAccess = nodes.some((r) => r.isPrivate);
+  const cal = computeCalendarMetrics(user.contributionsCollection?.contributionCalendar?.weeks || []);
+  const liveCalendarTotal =
+    user.contributionsCollection?.contributionCalendar?.totalContributions || 0;
 
-  if (!hasPrivateVisibility) {
+  if (!hasPrivateRepoAccess) {
     const publicRepos = nodes.filter((r) => !r.isPrivate).length;
     const publicStars = nodes.reduce((s, r) => s + (r.stargazerCount || 0), 0);
+    const totalRepos = Math.max(publicRepos, baseline.totalRepos || publicRepos);
+    const privateRepos = Math.max(0, totalRepos - publicRepos);
     return {
       ...baseline,
-      publicRepos: Math.max(publicRepos, baseline.publicRepos || 0),
+      totalRepos,
+      privateRepos,
+      publicRepos,
       publicStars: Math.max(publicStars, baseline.publicStars || 0),
-      followers: user.followers?.totalCount ?? baseline.followers,
+      followers: user.followers?.totalCount ?? baseline.followers ?? 0,
+      totalContributions: Math.max(liveCalendarTotal, baseline.totalContributions || 0),
+      activeDays: Math.max(cal.activeDays, baseline.activeDays || 0),
+      bestStreak: Math.max(cal.bestStreak, baseline.bestStreak || 0),
+      peakDay: Math.max(cal.peakDay, baseline.peakDay || 0),
+      weeklySums: cal.weeklySums.length > 0 ? cal.weeklySums : baseline.weeklySums,
       updatedAt: today,
     };
   }
@@ -200,7 +210,6 @@ function mergeMetrics(baseline, user) {
   }
 
   const totalCodeBytes = Object.values(langTotals).reduce((a, b) => a + b, 0);
-  const cal = computeCalendarMetrics(user.contributionsCollection?.contributionCalendar?.weeks || []);
 
   return {
     totalRepos,
@@ -208,9 +217,7 @@ function mergeMetrics(baseline, user) {
     publicRepos,
     publicStars,
     followers: user.followers?.totalCount ?? baseline.followers ?? 0,
-    totalContributions:
-      user.contributionsCollection?.contributionCalendar?.totalContributions ||
-      baseline.totalContributions,
+    totalContributions: liveCalendarTotal || baseline.totalContributions,
     branchCommits,
     activeDays: cal.activeDays,
     bestStreak: cal.bestStreak,
