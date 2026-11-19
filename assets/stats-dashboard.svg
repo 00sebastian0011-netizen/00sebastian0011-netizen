@@ -19,9 +19,9 @@
   <text x="38" y="107" class="mono" font-size="9.5" fill="#8b949e">20 privados · 3 públicos</text>
 
   <rect x="226" y="48" width="188" height="68" rx="10" fill="#161b22" stroke="#26303d" stroke-width="1"/>
-  <text x="240" y="75" class="sans" font-size="23" font-weight="800" fill="#3fb950">341+</text>
+  <text x="240" y="75" class="sans" font-size="23" font-weight="800" fill="#3fb950">342+</text>
   <text x="240" y="93" class="mono" font-size="10" font-weight="700" fill="#e6edf3">CONTRIBUCIONES</text>
-  <text x="240" y="107" class="mono" font-size="9.5" fill="#8b949e">64 días activos · máx 21/día</text>
+  <text x="240" y="107" class="mono" font-size="9.5" fill="#8b949e">64 días activos · máx 22/día</text>
 
   <rect x="24" y="126" width="188" height="68" rx="10" fill="#161b22" stroke="#26303d" stroke-width="1"/>
   <text x="38" y="153" class="sans" font-size="23" font-weight="800" fill="#d2a8ff">446+</text>
@@ -70,7 +70,7 @@
       <rect x="369.4" y="224.0" width="8" height="54" rx="2" fill="#39d353"><title>2026-10-25: 68 contribuciones</title></rect>
       <rect x="380.6" y="241.0" width="8" height="37" rx="2" fill="#006d32"><title>2026-11-01: 32 contribuciones</title></rect>
       <rect x="391.7" y="242.0" width="8" height="36" rx="2" fill="#006d32"><title>2026-11-08: 30 contribuciones</title></rect>
-      <rect x="402.9" y="238.0" width="8" height="40" rx="2" fill="#26a641"><title>2026-11-15: 37 contribuciones</title></rect>
+      <rect x="402.9" y="238.0" width="8" height="40" rx="2" fill="#26a641"><title>2026-11-15: 38 contribuciones</title></rect>
   <text x="24" y="301" class="mono" font-size="9.5" fill="#6e7681">Incluye repositorios privados de producción &amp; proyectos públicos</text>
 
   <!-- RIGHT PANEL: DISTRIBUCIÓN REAL DE LENGUAJES -->
