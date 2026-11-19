@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img" aria-label="Footer — Filosofía de desarrollo de Yandy Sebastian">
+  <defs>
+    <linearGradient id="footBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#101b33"/>
+    </linearGradient>
+    <linearGradient id="waveLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.1"/>
+      <stop offset="35%" stop-color="#58a6ff" stop-opacity="0.7"/>
+      <stop offset="70%" stop-color="#a371f7" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0.1"/>
+    </linearGradient>
+    <clipPath id="footClip">
+      <rect x="0" y="0" width="900" height="120" rx="14"/>
+    </clipPath>
+    <style>
+      .sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#footClip)">
+    <rect x="0" y="0" width="900" height="120" fill="url(#footBg)"/>
+    <path d="M 0 85 Q 225 48 450 82 T 900 72 L 900 120 L 0 120 Z" fill="#161b22" opacity="0.65"/>
+    <path d="M 0 85 Q 225 48 450 82 T 900 72" fill="none" stroke="url(#waveLine)" stroke-width="1.5"/>
+
+    <text x="450" y="42" text-anchor="middle" class="sans" font-size="14" font-style="italic" font-weight="600" fill="#e6edf3">
+      "La automatización no reemplaza personas, las libera para hacer lo que realmente importa."
+    </text>
+    <text x="450" y="96" text-anchor="middle" class="mono" font-size="11" fill="#8b949e">
+      Yandy Sebastian · Colombia · Full Stack, RPA &amp; AI Builder · 2026
+    </text>
+    <rect x="0.5" y="0.5" width="899" height="119" rx="14" fill="none" stroke="#30363d" stroke-width="1"/>
+  </g>
+</svg>
